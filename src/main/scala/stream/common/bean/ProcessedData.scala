@@ -1,10 +1,10 @@
 package stream.common.bean
 
-import com.air.antispider.stream.dataprocess.constants.BehaviorTypeEnum.BehaviorTypeEnum
-import com.air.antispider.stream.dataprocess.constants.FlightTypeEnum.FlightTypeEnum
-import com.air.antispider.stream.dataprocess.constants.TravelTypeEnum.TravelTypeEnum
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.scala.DefaultScalaModule
+import stream.dataprocess.constants.BehaviorTypeEnum.BehaviorTypeEnum
+import stream.dataprocess.constants.FlightTypeEnum.FlightTypeEnum
+import stream.dataprocess.constants.TravelTypeEnum.TravelTypeEnum
 
 /**
   * 保存请求参数的结构化数据

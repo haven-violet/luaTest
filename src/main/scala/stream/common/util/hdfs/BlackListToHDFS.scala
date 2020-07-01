@@ -1,9 +1,9 @@
 package stream.common.util.hdfs
 
-import com.air.antispider.stream.common.util.jedis.PropertiesUtil
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.types.{StringType, StructField, StructType}
 import org.apache.spark.sql.{DataFrame, Row, SQLContext}
+import stream.common.util.jedis.PropertiesUtil
 
 
 /**

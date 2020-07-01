@@ -1,6 +1,7 @@
 package stream.common.bean
 
-import com.air.antispider.stream.dataprocess.constants.FlightTypeEnum
+import stream.dataprocess.constants.FlightTypeEnum
+
 
 /**
  * 预定请求数据解析结果类

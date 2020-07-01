@@ -2,12 +2,12 @@ package stream.common.util.hdfs
 
 import java.text.SimpleDateFormat
 
-import com.air.antispider.stream.common.util.jedis.PropertiesUtil
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.{FileSystem, Path}
 import org.apache.spark.SparkContext
 import org.apache.spark.sql.{DataFrame, SQLContext}
 import redis.clients.jedis.JedisCluster
+import stream.common.util.jedis.PropertiesUtil
 
 import scala.collection.mutable.ArrayBuffer
 

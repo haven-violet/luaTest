@@ -1,6 +1,6 @@
 package stream.common.bean
 
-import com.air.antispider.stream.dataprocess.constants.{BehaviorTypeEnum, FlightTypeEnum}
+import stream.dataprocess.constants.{BehaviorTypeEnum, FlightTypeEnum}
 
 /**
  * 解析规则类：对应表analyzerule

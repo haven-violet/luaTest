@@ -4,11 +4,11 @@ import java.io.StringReader
 
 import javax.xml.parsers.{DocumentBuilder, DocumentBuilderFactory}
 import javax.xml.xpath.{XPath, XPathConstants, XPathFactory}
-import com.air.antispider.stream.common.bean.{AnalyzeRule, BookRequestData}
-import com.air.antispider.stream.dataprocess.constants.TravelTypeEnum
-import com.air.antispider.stream.dataprocess.constants.TravelTypeEnum.TravelTypeEnum
 import org.w3c.dom.{Document, NodeList}
 import org.xml.sax.InputSource
+import stream.common.bean.{AnalyzeRule, BookRequestData}
+import stream.dataprocess.constants.TravelTypeEnum
+import stream.dataprocess.constants.TravelTypeEnum.TravelTypeEnum
 
 object xmlUtil {
   /**

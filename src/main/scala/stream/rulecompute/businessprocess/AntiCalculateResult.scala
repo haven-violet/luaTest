@@ -1,6 +1,7 @@
 package stream.rulecompute.businessprocess
 
-import com.air.antispider.stream.common.bean.ProcessedData
+import stream.common.bean.ProcessedData
+
 
 /**
  * 反爬计算结果封装类

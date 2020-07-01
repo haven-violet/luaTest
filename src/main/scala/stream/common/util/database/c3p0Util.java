@@ -1,7 +1,7 @@
 package stream.common.util.database;
 
-import com.air.antispider.stream.common.util.jedis.PropertiesUtil;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
+import stream.common.util.jedis.PropertiesUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

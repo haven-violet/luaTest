@@ -1,6 +1,7 @@
 package stream.common.util.json
 
-import com.air.antispider.stream.common.bean.{AnalyzeRule, BookRequestData}
+
+import stream.common.bean.{AnalyzeRule, BookRequestData}
 
 import scala.util.parsing.json.JSON
 

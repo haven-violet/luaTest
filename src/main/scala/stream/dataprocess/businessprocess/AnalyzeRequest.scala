@@ -2,14 +2,15 @@ package stream.dataprocess.businessprocess
 
 import java.io.StringReader
 
-import com.air.antispider.stream.common.util.decode.RequestDecoder
-import com.air.antispider.stream.common.util.json.JsonPathParser
-import com.air.antispider.stream.dataprocess.constants.TravelTypeEnum.TravelTypeEnum
 import javax.xml.parsers.{DocumentBuilder, DocumentBuilderFactory}
 import javax.xml.xpath.{XPath, XPathFactory}
 import org.apache.log4j.Logger
 import org.w3c.dom.Document
 import org.xml.sax.InputSource
+import stream.common.bean.{AnalyzeRule, QueryRequestData, RequestType}
+import stream.common.util.decode.RequestDecoder
+import stream.common.util.json.JsonPathParser
+import stream.dataprocess.constants.TravelTypeEnum.TravelTypeEnum
 
 /**
   * 解析数据

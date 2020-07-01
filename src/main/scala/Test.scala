@@ -19,5 +19,5 @@ class Test {
       缺点:
         手动管理offset,代码复杂
    */
-  
+
 }

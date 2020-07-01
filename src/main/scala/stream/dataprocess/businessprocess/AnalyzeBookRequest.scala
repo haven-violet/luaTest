@@ -1,11 +1,12 @@
 package stream.dataprocess.businessprocess
 
-import com.air.antispider.stream.common.bean.{AnalyzeRule, BookRequestData, RequestType}
-import com.air.antispider.stream.common.util.decode.{MD5, RequestDecoder}
-import com.air.antispider.stream.common.util.json.JsonParser
-import com.air.antispider.stream.common.util.xml.xmlUtil
-import com.air.antispider.stream.dataprocess.constants.FlightTypeEnum
-import com.air.antispider.stream.dataprocess.constants.TravelTypeEnum.TravelTypeEnum
+import stream.common.bean.{AnalyzeRule, BookRequestData, RequestType}
+import stream.common.util.decode.{MD5, RequestDecoder}
+import stream.common.util.json.JsonParser
+import stream.common.util.xml.xmlUtil
+import stream.dataprocess.constants.FlightTypeEnum
+import stream.dataprocess.constants.TravelTypeEnum.TravelTypeEnum
+
 
 object AnalyzeBookRequest {
   /**
