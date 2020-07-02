@@ -14,7 +14,7 @@
         <spark.version>2.2.3</spark.version>
         <scala.version>2.11</scala.version>
         <hadoop.version>2.6.5</hadoop.version>
-        <mysql.driver.version>5.1.35</mysql.driver.version>
+        <mysql.driver.version>8.0.16</mysql.driver.version>
         <jedis.version>2.9.0</jedis.version>
         <fastjson.version>1.2.4</fastjson.version>
         <junit.version>4.12</junit.version>
